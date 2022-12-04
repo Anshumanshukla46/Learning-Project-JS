@@ -1,0 +1,59 @@
+body {
+    background-color: #47515e;
+}
+
+#container {
+    background-color: #47515e;
+    width: 380px;
+    text-align: center;
+    height: 410px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 10%;
+    padding-left: 10px;
+}
+
+p {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    height: 3rem;
+    width: 40px;
+    color: white;
+    background-color: #757b83;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: 2rem;
+
+}
+
+#res {
+    width: 240px;
+    height: 2.2rem;
+    background-color: white;
+    cursor: default;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+#c {
+    color: white;
+    margin-top: 20px;
+    padding-top: -50px;
+}
+
+p:hover {
+    background-color: #596981;
+}
+
+#bo {
+    color: white;
+}
