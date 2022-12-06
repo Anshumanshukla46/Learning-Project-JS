@@ -1,0 +1,97 @@
+body {
+    background-color: lightblue;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#center {
+    display: relative;
+
+}
+
+#whole {
+    background-color: whitesmoke;
+    text-align: center;
+    /* display: inline-block; */
+    border: 1px solid black;
+    display: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(5%, 0%);
+    margin: auto;
+    width: 50%;
+    height: 90%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: red;
+    font-weight: 800;
+}
+
+#details p {
+    color: #4e9af7;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+input[type="text"] {
+    width: 70px;
+    height: 70px;
+    cursor: cell;
+}
+
+input[id='1'],
+input[id='2'],
+input[id='3'],
+input[id='5'],
+input[id='4'],
+input[id='6'] {
+    margin-bottom: 10px;
+}
+
+input[id='1'],
+input[id='2'],
+input[id='4'],
+input[id='5'],
+input[id='7'],
+input[id='8'] {
+    margin-right: 10px;
+}
+
+input[type="reset"] {
+    color: white;
+    background-color: #4e9af7;
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    color: #4e9af7;
+    border: 2px solid #4e9af7;
+    background-color: white;
+}
+
+#navigation {
+    color: #4e9af7;
+    font-size: larger;
+}
+
+input[id='1'],
+input[id='2'],
+input[id='3'],
+input[id='4'],
+input[id='5'],
+input[id='6'],
+input[id='7'],
+input[id='8'],
+input[id='9'] {
+    font-size: larger;
+    text-align: center;
+    font-weight: 700;
+
+    border-radius: 10px;
+}

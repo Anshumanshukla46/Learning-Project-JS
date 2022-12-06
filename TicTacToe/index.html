@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./tic tac toe.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="center">
+
+        <div id="whole">
+
+            <div id="details">
+                <h1 id="title">tic tac toe</h1>
+
+                <p id="game">Game start by just
+                    <strong>Tap</strong>
+                    on box
+                </p>
+
+                <p id="player">
+                    First Player starts as
+                    <b>Player X</b>
+                    <br> And <br>
+                    Second Player starts as <b>Player O</b>
+                </p>
+
+            </div>
+
+            <!-- 
+        1 | 2 | 3
+        4 | 5 | 6
+        7 | 8 | 9
+
+        cnt = X(0,2,4,6) // even
+        cnt = )(0,2,4,6) // odd
+        
+     -->
+
+            <div class="gameboard">
+
+                <form action="./nothing">
+
+                    <!-- removed the value -> add if bug serial from 1 to 9 -->
+                    <input type="text" name="1" id="1" readonly>
+                    <input type="text" name="2" id="2" readonly>
+                    <input type="text" name="3" id="3" readonly>
+
+                    <br>
+
+                    <input type="text" name="4" id="4" readonly>
+                    <input type="text" name="5" id="5" readonly>
+                    <input type="text" name="6" id="6" readonly>
+
+                    <br>
+
+                    <input type="text" name="7" id="7" readonly>
+                    <input type="text" name="8" id="8" readonly>
+                    <input type="text" name="9" id="9" readonly>
+
+                    <br><br>
+                    <input type="reset" value="Reset" id="reset">
+
+                </form>
+
+            </div>
+
+            <br>
+
+            <span id="navigation">Player X Turn</span>
+            <br><br>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

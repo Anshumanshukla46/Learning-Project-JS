@@ -2,6 +2,8 @@ let res = document.getElementById('res');
 let c = document.getElementById('c');
 let sc = document.getElementById('bo');
 
+// passed value in addEventListener
+
 c.addEventListener('click', clear);
 function clear() {
     res.innerHTML = "";
